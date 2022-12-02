@@ -1,0 +1,245 @@
+.grilla {
+    border: 5px solid gray;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100%;
+}
+
+.body {
+    width: 60%;
+}
+
+.sidebar {
+    width: 40%;
+}
+
+.footer-column {
+    background-color: green;
+    width: 20%;
+}
+
+@media (max-width:1200px) {
+    .grilla {
+        width: 100%;
+    }
+}
+
+/* NORMAL STYLES */
+
+.logo {
+    font-size: 50px;
+    color: red;
+}
+
+@media (min-width: 600px) {
+    .logo {
+        text-transform: uppercase;
+        color: blue;
+    }
+}
+
+/* NORMAL STYLES */
+
+/* GRID SYSTEM */
+
+.container {
+    border: 5px solid green;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    justify-content: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.start {
+    justify-content: start;
+}
+
+.end {
+    justify-content: end;
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col3 {
+    width: 30%;
+}
+
+.col4 {
+    width: 40%;
+}
+
+.col5 {
+    width: 50%;
+}
+
+.col6 {
+    width: 60%;
+}
+
+.col7 {
+    width: 70%;
+}
+
+.col8 {
+    width: 80%;
+}
+
+.col9 {
+    width: 90%;
+}
+
+.col10 {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 500px;
+    }
+
+    .col-sm1 {
+        width: 10%;
+    }
+    
+    .col-sm2 {
+        width: 20%;
+    }
+    
+    .col-sm3 {
+        width: 30%;
+    }
+    
+    .col-sm4 {
+        width: 40%;
+    }
+    
+    .col-sm5 {
+        width: 50%;
+    }
+    
+    .col-sm6 {
+        width: 60%;
+    }
+    
+    .col-sm7 {
+        width: 70%;
+    }
+    
+    .col-sm8 {
+        width: 80%;
+    }
+    
+    .col-sm9 {
+        width: 90%;
+    }
+    
+    .col-sm10 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 800px;
+    }
+
+    .center-md {
+        justify-content: center;
+    }
+
+    .start-md {
+        justify-content: start;
+    }
+
+    .col-md1 {
+        width: 10%;
+    }
+    
+    .col-md2 {
+        width: 20%;
+    }
+    
+    .col-md3 {
+        width: 30%;
+    }
+    
+    .col-md4 {
+        width: 40%;
+    }
+    
+    .col-md5 {
+        width: 50%;
+    }
+    
+    .col-md6 {
+        width: 60%;
+    }
+    
+    .col-md7 {
+        width: 70%;
+    }
+    
+    .col-md8 {
+        width: 80%;
+    }
+    
+    .col-md9 {
+        width: 90%;
+    }
+    
+    .col-md10 {
+        width: 100%;
+    }
+}
+
+/* GRID SYSTEM */
+
+
+
+
+
+
+
+
+
+
+/* */
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

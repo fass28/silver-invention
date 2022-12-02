@@ -1,0 +1,202 @@
+/*****************************************************  navbar CSS *********************************************************/
+
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+
+#title {
+    text-align: left;
+    background-color: #ff4c68;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 0;
+
+}
+
+a{
+    font-weight: 700;
+ }
+
+
+ h1, h2, h3, h4, h5, h6{
+     font-weight: 900;
+     font-family: 'Montserrat', bold; 
+    }
+ 
+/*****************************************************  features CSS *********************************************************/
+
+h3{
+
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: 700;
+}
+
+
+/*****************************************************  navbar CSS *********************************************************/
+.big-heading{
+    font-size: 3.8rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 0;
+}
+
+.rotate90{
+    transform: rotate(21deg) translateY(100px) translateX(70px);
+}
+
+.navbar-nav{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size:1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-left: 5.3rem;
+    color: rgba(255,255,255,.5);
+}
+
+.download-btn{
+    margin: 12% 5% 0 0;
+}
+
+/*****************************************************  features CSS *********************************************************/
+#features{
+    padding: 5.5rem 0;
+}
+
+.icon{
+    color: #ef8172;
+    font-size: 3.5rem;
+    margin: 5% auto;
+}
+
+.p-icon{
+    margin: 0 7rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/*****************************************************  testimonial CSS *********************************************************/
+#testimonials{
+    font-family:'Montserrat', bold;
+    font-weight: 900;
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    margin: 3% 20px;
+    width: 10%;
+}
+
+#press{
+    background-color: #ff4c68;
+     padding-bottom: 5%;
+    
+}
+
+.press-img{
+    width:10%;
+    margin: 0 40px 0;
+}
+
+.carousel-item{
+    padding: 9% 0;
+
+}
+
+.carousel-inner{
+
+    padding: 80px 260px;
+}
+
+.card-body h2{
+    font-size: 2rem;
+}
+
+/*****************************************************  pricing CSS *********************************************************/
+
+
+#pricing{
+    padding: 100px;
+}
+
+.card-deck{
+    padding: 50px;
+}
+
+.card-body .btn-outline-danger{
+    font-weight: 600;
+}
+
+/***************************************************** Media Query*********************************************************/
+
+@media (max-width:1150px ){
+
+    #title{
+        text-align: center;
+    }
+
+    .rotate90{
+
+        transform: rotate(0) translateY(0) translateX(0);
+        margin: 5% auto;
+    }
+} 
+
+/*****************************************************footer CSS*********************************************************/
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 20%;
+    color: white;
+ }
+
+#cta button{
+    margin: 80px 20px;
+}
+
+
+#footer{
+    padding: 140px;
+ }
+
+.icon-footer{
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+
+a {
+    color:black;
+  }
